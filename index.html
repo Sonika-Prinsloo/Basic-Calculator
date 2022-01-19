@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <p id="display">0</p>
+    <article>
+    </article>
+    <article>
+      <button onclick="displaynum(7)" id="num">7</button>
+      <button onclick="displaynum(8)" id="num">8</button>
+      <button onclick="displaynum(9)" id="num">9</button>
+      <button onclick="displaynum('/')">÷</button>
+    </article>
+    <article>
+      <button onclick="displaynum(4)" id="num">4</button>
+      <button onclick="displaynum(5)" id="num">5</button>
+      <button onclick="displaynum(6)" id="num">6</button>
+      <button onclick="displaynum('*')">×</button>
+    </article>
+    <article>
+      <button onclick="displaynum(1)" id="num">1</button>
+      <button onclick="displaynum(2)" id="num">2</button>
+      <button onclick="displaynum(3)" id="num">3</button>
+      <button onclick="displaynum('-')">-</button>
+    </article>
+    <article>
+      <button onclick="displaynum('(')" class="par">(</button>
+      <button onclick="displaynum(')')" class="par">)</button>
+      <button onclick="displaynum(0)" id="num">0</button>
+      <button onclick="cancel()">C</button>
+      <button onclick="displaynum('+')">+</button>
+    </article>
+    <article>
+      <button id="total" onclick="sumTotal()">=</button>
+    </article>
+
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
